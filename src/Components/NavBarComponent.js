@@ -44,28 +44,13 @@ class NavBar extends React.Component {
                         <Navbar.Brand href="./"><FaAws /> Text-To-Speech</Navbar.Brand>
                         <Nav className="me-auto">
                             <Nav.Link onClick={() => this.setState({ show: true })}>Show Help</Nav.Link>
-                            <Nav.Link href="https://github.com/kwaku104" target="_blank" style={{
+                            <Nav.Link href="https://github.com/kwaku104/Text-To-Speech-App" target="_blank" style={{
                                 paddingRight: "0"
                             }}><FaGithub /></Nav.Link>
-                            {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
                         </Nav>
                     </Container>
                 </Navbar>
                 {infoAlert}
-                {/* <Navbar bg="dark"> */}
-                {/* <Container> */}
-                {/* <Navbar.Brand href="#home"> */}
-                {/* <img */}
-                {/* src="TTS2.png" */}
-                {/* width="70" */}
-                {/* height="30" */}
-                {/* className="d-inline-block align-top" */}
-                {/* alt="" */}
-                {/* /> */}
-                {/* <h1 style={h1StyleObj}> Text to Speech</h1> */}
-                {/* </Navbar.Brand> */}
-                {/* </Container> */}
-                {/* </Navbar> */}
                 <br />
             </div>
         )
