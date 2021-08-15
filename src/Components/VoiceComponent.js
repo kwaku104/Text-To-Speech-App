@@ -158,7 +158,7 @@ class Voice extends React.Component {
                                         <Form.Control as='select' className="voiceSelected" onChange={e => this.setState({ voice: e.target.value })} type="text" value={this.state.voice}>
                                             <option value="Joanna">Joanna [English]</option>
                                             <option value="Maja">Maja [Polish]</option>
-                                            <option value="Seoyeon">Seoyeon [Seoyeon]</option>
+                                            <option value="Seoyeon">Seoyeon [Korean]</option>
                                             <option value="Enrique">Enrique [Spanish]</option>
                                             <option value="Marlene">Marlene [German]</option>
                                             <option value="Mathieu">Mathieu [French]</option>
